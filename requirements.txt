@@ -10,4 +10,3 @@ gunicorn
 dvc
 boto3
 s3fs
-dvc[s3]
