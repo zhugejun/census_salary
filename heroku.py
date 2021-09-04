@@ -19,7 +19,7 @@ data = {
     "native_country": "China" }
           
 
-response = requests.post('https://boiling-journey-72876.herokuapp.com/', data=json.dumps(data))
+response = requests.post('https://boiling-journey-72876.herokuapp.com/inference', data=json.dumps(data))
 
 print(response.status_code)
 print(response.json())
